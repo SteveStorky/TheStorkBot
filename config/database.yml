@@ -5,15 +5,17 @@ default: &default
   username: root
   password: root
   host: db
+
 development:
   <<: *default
   database: rails_app
+
 #test:
 #  <<: *default
 #  database: app_test
+
 production:
   <<: *default
   database: rails_app
   username: app
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
-

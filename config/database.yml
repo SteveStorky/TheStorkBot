@@ -7,8 +7,8 @@ default: &default
 production:
   adapter: postgresql
   encoding: unicode
-  host: ec2-23-23-225-12.compute-1.amazonaws.com
+  host: ec2-54-163-254-143.compute-1.amazonaws.com
   port: 5432
-  database: d624e2ntt8nbqg
-  username: wyayqqjntdlylz
-  password: e1033192545456a16901b27292c0033a351eaa9a298417aff567f834ac3666f6
+  database: d2na1fbcpaag6q
+  username: hwyqpurfgifioa
+  password: 95327a39b4553721cb3c60d51dc00733368cd720cc4c443f3d06a42e14900479

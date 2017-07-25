@@ -8,7 +8,7 @@ Facebook::Messenger::Subscriptions.subscribe(access_token: ENV["ACCESS_TOKEN"])
 Bot.on :message do |message|
 
   # Connect to API.ai when got facebook message
-  client = ApiAiRuby::Client.new( :client_access_token => 'xxxxxxxxyyyyyyzzzzz' )
+  client = ApiAiRuby::Client.new( :client_access_token => ENV["API_AI_ACCESS_TOKEN"] )
   # Will be replace by initialize services class soon
 
   # Send facebook message's message to API.ai

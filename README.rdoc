@@ -1,28 +1,25 @@
-== README
+# The Stork Bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Stork Bot, an Artificial Intelligence based assistive chatbot to improve courier/logistic company's customer experience.
 
-Things you may want to cover:
+## Quick start
 
-* Ruby version
+1. Create a Facebook Page and Facebook App
 
-* System dependencies
+2. Install Ruby 2.3.x and Ruby on Rails 4.2.7 (do not use newer version, due some conflict in facebook-messenger gem)
 
-* Configuration
+3. Get the codes:
 
-* Database creation
+   $ git clone https://github.com/thestorkbot/TheStorkBot.git
 
-* Database initialization
+4. Edit file .env with your Facebook App and API.ai credentials
 
-* How to run the test suite
+5. Run the app with HTTPS connection, for ex. https://wherever.your.host.is
 
-* Services (job queues, cache servers, search engines, etc.)
+6. Configure our Facebook App again, set it's webhook to https://wherever.your.host.is/bot
 
-* Deployment instructions
+7. Message and chat with the bot
 
-* ...
+## License
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The Stork Bot is released under the [MIT License](http://www.opensource.org/licenses/MIT).
